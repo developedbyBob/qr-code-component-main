@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: hsl(212, 45%, 89%);
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+section {
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 300px;
+}
+
+figure img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    margin-top: 20px;
+}
+
+p {
+    color: hsl(220, 15%, 55%);
+    margin-top: 20px;
+}
+
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    width: 100%; 
+}
+
+footer a {
+    text-decoration: none;
+    color: hsl(218, 44%, 22%);;
+}
+
+footer a:hover {
+    color: hsl(220, 15%, 55%);
+}
+
+
+/*Para dispositivos com largura menor que 768px (como tablets em modo retrato) */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  section {
+    width: 100%;
+  }
+}
+
+/* Para dispositivos com largura menor que 480px (como smartphones) */
+@media (max-width: 479px) {
+  body {
+    font-size: 14px;
+  }
+
+  section {
+    width: 100%;
+  }
+}
